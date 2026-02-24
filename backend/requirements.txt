@@ -1,0 +1,4 @@
+opengradient
+fastapi
+uvicorn[standard]
+pydantic

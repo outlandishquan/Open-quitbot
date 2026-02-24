@@ -1,0 +1,1 @@
+export { AiInsight } from './AiInsight';

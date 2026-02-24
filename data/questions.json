@@ -1,0 +1,2472 @@
+[
+  {
+    "id": "q1",
+    "question": "What is OpenGradient primarily building?",
+    "options": [
+      "A consumer chatbot platform",
+      "Decentralized AI infrastructure for verifiable inference and persistent intelligence",
+      "A centralized cloud computing service",
+      "A social media analytics tool"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "category": "protocol"
+  },
+  {
+    "id": "q2",
+    "question": "What distinguishes OpenGradient from traditional AI platforms?",
+    "options": [
+      "Lower pricing",
+      "Verifiable execution and persistent memory built into the stack",
+      "Faster GPUs",
+      "More model options"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "category": "protocol"
+  },
+  {
+    "id": "q3",
+    "question": "What core problem does OpenGradient address in AI systems?",
+    "options": [
+      "Lack of GPU availability",
+      "Lack of trust, determinism, and persistent context",
+      "Slow internet speeds",
+      "Limited model sizes"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "category": "protocol"
+  },
+  {
+    "id": "q4",
+    "question": "What does 'verifiable inference' mean?",
+    "options": [
+      "AI outputs are reviewed by humans",
+      "AI outputs can be cryptographically proven to have been generated correctly",
+      "AI outputs are stored in a database",
+      "AI outputs are encrypted"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q5",
+    "question": "Why is determinism important in AI execution?",
+    "options": [
+      "It makes models smaller",
+      "It enables reproducibility and verification of outputs",
+      "It reduces costs",
+      "It increases speed"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q6",
+    "question": "What hardware environment does OpenGradient use for secure execution?",
+    "options": [
+      "Standard cloud servers",
+      "Trusted Execution Environments (TEE)",
+      "Consumer laptops",
+      "Quantum computers"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q7",
+    "question": "What does TEE provide?",
+    "options": [
+      "Faster networking",
+      "Hardware-level isolation and attestation for secure computation",
+      "Cheaper storage",
+      "Better UI rendering"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q8",
+    "question": "What role does cryptographic verification play in OpenGradient?",
+    "options": [
+      "It speeds up model training",
+      "It ensures outputs can be audited and trusted",
+      "It reduces model size",
+      "It improves user interface"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "category": "protocol"
+  },
+  {
+    "id": "q9",
+    "question": "Is OpenGradient focused on consumer chat apps?",
+    "options": [
+      "Yes, primarily",
+      "No, it focuses on infrastructure",
+      "Yes, for social media",
+      "Yes, for gaming"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "category": "protocol"
+  },
+  {
+    "id": "q10",
+    "question": "What transforms OpenGradient from compute to persistent intelligence?",
+    "options": [
+      "More GPUs",
+      "The memory layer (MemSync)",
+      "Faster networks",
+      "Better algorithms"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q11",
+    "question": "What type of AI systems benefit most from OpenGradient?",
+    "options": [
+      "Simple chatbots",
+      "Systems requiring trust, continuity, and execution guarantees",
+      "Image editors",
+      "Video streaming platforms"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "category": "protocol"
+  },
+  {
+    "id": "q12",
+    "question": "What does OpenGradient treat as a first-class primitive?",
+    "options": [
+      "User interface design",
+      "Memory and verifiable execution",
+      "Social features",
+      "Payment processing"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q13",
+    "question": "What makes OpenGradient infrastructure-oriented?",
+    "options": [
+      "It has a mobile app",
+      "It builds foundational layers, not just applications",
+      "It focuses on marketing",
+      "It only serves enterprises"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "category": "protocol"
+  },
+  {
+    "id": "q14",
+    "question": "Why is execution correctness critical in AI systems?",
+    "options": [
+      "For aesthetic reasons",
+      "Because downstream systems depend on reliable outputs",
+      "For marketing purposes",
+      "For legal compliance only"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q15",
+    "question": "What is the relationship between models and execution in OpenGradient?",
+    "options": [
+      "Models are only for display",
+      "Models are treated as executable artifacts, not static files",
+      "Models are stored but never run",
+      "Models are disposable"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "category": "protocol"
+  },
+  {
+    "id": "q16",
+    "question": "What is Model Hub?",
+    "options": [
+      "A social network for developers",
+      "A decentralized repository for models within OpenGradient",
+      "A hardware marketplace",
+      "A training platform"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "category": "protocol"
+  },
+  {
+    "id": "q17",
+    "question": "What is required for verifiable inference in Model Hub?",
+    "options": [
+      "PyTorch format",
+      "ONNX model format",
+      "TensorFlow format",
+      "CSV format"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q18",
+    "question": "Why does OpenGradient require ONNX for verifiable inference?",
+    "options": [
+      "It's smaller in size",
+      "To ensure deterministic execution",
+      "It's faster to load",
+      "It's open source"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q19",
+    "question": "What are the three layers of model versioning?",
+    "options": [
+      "Input, Output, Layer",
+      "Repository, Release, File",
+      "Train, Test, Deploy",
+      "Alpha, Beta, Production"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q20",
+    "question": "What is a model repository?",
+    "options": [
+      "A training script",
+      "The main container for a model project",
+      "A GPU cluster",
+      "A database table"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "category": "protocol"
+  },
+  {
+    "id": "q21",
+    "question": "What is a release in Model Hub?",
+    "options": [
+      "A press announcement",
+      "A specific version of a model",
+      "A deployment script",
+      "A bug fix"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "category": "protocol"
+  },
+  {
+    "id": "q22",
+    "question": "What are model files?",
+    "options": [
+      "Configuration documents",
+      "The actual artifacts associated with a release",
+      "Marketing materials",
+      "Log files"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "category": "protocol"
+  },
+  {
+    "id": "q23",
+    "question": "Why is versioning important in Model Hub?",
+    "options": [
+      "For aesthetic purposes",
+      "To maintain backward compatibility",
+      "To increase file sizes",
+      "To confuse users"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "category": "protocol"
+  },
+  {
+    "id": "q24",
+    "question": "Can any model format be stored in Model Hub?",
+    "options": [
+      "No, only ONNX",
+      "Yes, but only ONNX supports verifiable inference",
+      "No, only PyTorch",
+      "No, only TensorFlow"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q25",
+    "question": "What ensures reproducible model execution?",
+    "options": [
+      "Manual testing",
+      "Deterministic ONNX runtime in TEE",
+      "Random seeds",
+      "User feedback"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "category": "protocol"
+  },
+  {
+    "id": "q26",
+    "question": "What connects Model Hub to secure inference?",
+    "options": [
+      "A web API",
+      "Verifiable execution infrastructure",
+      "Social login",
+      "Cloud storage"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q27",
+    "question": "What is hardware attestation used for?",
+    "options": [
+      "Marketing claims",
+      "Proving secure execution",
+      "User authentication",
+      "Data compression"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q28",
+    "question": "Does Model Hub only store LLMs?",
+    "options": [
+      "Yes, exclusively",
+      "No, it can store different model types",
+      "Yes, only GPT models",
+      "Yes, only transformer models"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "category": "protocol"
+  },
+  {
+    "id": "q29",
+    "question": "Why are constraints important in Model Hub?",
+    "options": [
+      "They limit users",
+      "They enable verification",
+      "They slow down inference",
+      "They increase costs"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q30",
+    "question": "What differentiates Model Hub from Hugging Face?",
+    "options": [
+      "Better UI",
+      "Integration with verifiable execution",
+      "More models",
+      "Free tier"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "category": "protocol"
+  },
+  {
+    "id": "q31",
+    "question": "What makes models 'deployable' in OpenGradient?",
+    "options": [
+      "Having documentation",
+      "Compatibility with secure inference",
+      "Being small enough",
+      "Having a license"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q32",
+    "question": "Why is format part of the security model?",
+    "options": [
+      "For file organization",
+      "Because execution guarantees depend on it",
+      "For storage efficiency",
+      "For naming conventions"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "category": "protocol"
+  },
+  {
+    "id": "q33",
+    "question": "What makes Model Hub infrastructure-grade?",
+    "options": [
+      "Premium pricing",
+      "Its integration with verification layers",
+      "Fancy design",
+      "Large storage"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "category": "protocol"
+  },
+  {
+    "id": "q34",
+    "question": "What enables safe updates in Model Hub?",
+    "options": [
+      "Manual review",
+      "Structured versioning",
+      "Automatic rollback",
+      "User voting"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "category": "protocol"
+  },
+  {
+    "id": "q35",
+    "question": "What is the purpose of releases?",
+    "options": [
+      "Marketing announcements",
+      "Controlled model evolution",
+      "Bug tracking",
+      "User engagement"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "category": "protocol"
+  },
+  {
+    "id": "q36",
+    "question": "What is MemSync?",
+    "options": [
+      "A file synchronization tool",
+      "A long-term memory layer for AI",
+      "A cloud backup service",
+      "A database engine"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "category": "protocol"
+  },
+  {
+    "id": "q37",
+    "question": "What problem does MemSync solve?",
+    "options": [
+      "Slow internet",
+      "Stateless AI sessions",
+      "High GPU costs",
+      "Model training"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "category": "protocol"
+  },
+  {
+    "id": "q38",
+    "question": "What type of memory persists over time?",
+    "options": [
+      "Cache memory",
+      "Semantic memory",
+      "Buffer memory",
+      "Temporary memory"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q39",
+    "question": "What type of memory stores time-bound context?",
+    "options": [
+      "Permanent memory",
+      "Episodic memory",
+      "Static memory",
+      "Core memory"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q40",
+    "question": "What is semantic memory?",
+    "options": [
+      "Temporary session data",
+      "Stable long-term facts about a user",
+      "Random access memory",
+      "GPU memory"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q41",
+    "question": "What is episodic memory?",
+    "options": [
+      "Hardware cache",
+      "Situational or time-bound context",
+      "Permanent storage",
+      "System memory"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q42",
+    "question": "Why separate semantic and episodic memory?",
+    "options": [
+      "To save storage space",
+      "To prevent memory pollution",
+      "To increase speed",
+      "To reduce costs"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "category": "protocol"
+  },
+  {
+    "id": "q43",
+    "question": "How does MemSync extract memory?",
+    "options": [
+      "Manual user input",
+      "Via verifiable LLM inference",
+      "Through surveys",
+      "Via social media scraping"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "category": "protocol"
+  },
+  {
+    "id": "q44",
+    "question": "What enables semantic retrieval?",
+    "options": [
+      "Keyword search",
+      "Embeddings",
+      "File names",
+      "Timestamps"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q45",
+    "question": "What makes MemSync portable?",
+    "options": [
+      "Small file size",
+      "Cross-application memory context",
+      "USB compatibility",
+      "Cloud sync"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q46",
+    "question": "What makes MemSync trustworthy?",
+    "options": [
+      "User reviews",
+      "TEE-backed inference",
+      "Brand reputation",
+      "Open source code"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q47",
+    "question": "What ensures memory integrity?",
+    "options": [
+      "Password protection",
+      "Cryptographic verification",
+      "Regular backups",
+      "User moderation"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q48",
+    "question": "Can MemSync import external context?",
+    "options": [
+      "No, never",
+      "Yes",
+      "Only from OpenGradient apps",
+      "Only from text files"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "category": "protocol"
+  },
+  {
+    "id": "q49",
+    "question": "What allows AI systems to evolve over time?",
+    "options": [
+      "Bigger models",
+      "Persistent memory",
+      "More GPUs",
+      "Better algorithms"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "category": "protocol"
+  },
+  {
+    "id": "q50",
+    "question": "Why is memory maintenance important?",
+    "options": [
+      "For billing purposes",
+      "To avoid stale or noisy memory",
+      "For aesthetics",
+      "For compliance"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q51",
+    "question": "What updates memory relevance?",
+    "options": [
+      "Manual editing",
+      "Continuous classification and scoring",
+      "Random deletion",
+      "User votes"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "category": "protocol"
+  },
+  {
+    "id": "q52",
+    "question": "What is memory retrieval based on?",
+    "options": [
+      "Alphabetical order",
+      "Semantic similarity",
+      "Date created",
+      "File size"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q53",
+    "question": "What turns OpenGradient into persistent intelligence?",
+    "options": [
+      "More servers",
+      "MemSync",
+      "Better marketing",
+      "Faster GPUs"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "category": "protocol"
+  },
+  {
+    "id": "q54",
+    "question": "What type of systems benefit from MemSync?",
+    "options": [
+      "Static websites",
+      "Assistants, agents, digital twins",
+      "Spreadsheet tools",
+      "Email clients"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "category": "protocol"
+  },
+  {
+    "id": "q55",
+    "question": "What does MemSync treat memory as?",
+    "options": [
+      "A secondary feature",
+      "A system primitive",
+      "An afterthought",
+      "A plugin"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q56",
+    "question": "Why isn't MemSync just storage?",
+    "options": [
+      "It has a UI",
+      "It extracts and organizes memory",
+      "It costs more",
+      "It uses GPUs"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "category": "protocol"
+  },
+  {
+    "id": "q57",
+    "question": "What infrastructure powers MemSync?",
+    "options": [
+      "AWS cloud",
+      "OpenGradient's verifiable inference stack",
+      "Google Cloud",
+      "Azure"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q58",
+    "question": "What makes memory usable in serious systems?",
+    "options": [
+      "Large storage capacity",
+      "Trust and verifiability",
+      "Fast download speeds",
+      "Pretty dashboards"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "category": "protocol"
+  },
+  {
+    "id": "q59",
+    "question": "What allows continuity across applications?",
+    "options": [
+      "Shared databases",
+      "Portable memory",
+      "Same login",
+      "Cloud sync"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q60",
+    "question": "What prevents blind memory accumulation?",
+    "options": [
+      "Storage limits",
+      "Intelligent updates",
+      "Manual cleanup",
+      "Auto-deletion"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "category": "protocol"
+  },
+  {
+    "id": "q61",
+    "question": "What ensures memory classification is secure?",
+    "options": [
+      "Encryption at rest",
+      "TEE execution",
+      "User passwords",
+      "Firewalls"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "category": "protocol"
+  },
+  {
+    "id": "q62",
+    "question": "What is the key outcome of MemSync?",
+    "options": [
+      "Cheaper compute",
+      "Context-aware AI over time",
+      "Faster training",
+      "Better graphics"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "category": "protocol"
+  },
+  {
+    "id": "q63",
+    "question": "What happens without long-term memory?",
+    "options": [
+      "AI gets smarter",
+      "AI resets every session",
+      "AI runs faster",
+      "AI uses less power"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "category": "protocol"
+  },
+  {
+    "id": "q64",
+    "question": "What kind of intelligence does MemSync enable?",
+    "options": [
+      "Static intelligence",
+      "Compounding intelligence",
+      "Artificial general intelligence",
+      "Narrow intelligence"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "category": "protocol"
+  },
+  {
+    "id": "q65",
+    "question": "What layer does MemSync represent?",
+    "options": [
+      "The compute layer",
+      "The memory layer of the OpenGradient stack",
+      "The network layer",
+      "The storage layer"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "category": "protocol"
+  },
+  {
+    "id": "q66",
+    "question": "What does the OpenGradient SDK provide?",
+    "options": [
+      "Hardware monitoring tools",
+      "Developer access to inference and model management",
+      "Social media integration",
+      "Website building tools"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "category": "protocol"
+  },
+  {
+    "id": "q67",
+    "question": "What language does the SDK primarily support?",
+    "options": [
+      "JavaScript",
+      "Python",
+      "Rust",
+      "Go"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "category": "protocol"
+  },
+  {
+    "id": "q68",
+    "question": "What interface does the SDK include?",
+    "options": [
+      "Only a web dashboard",
+      "CLI and programmatic access",
+      "Only a mobile app",
+      "Only REST API"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "category": "protocol"
+  },
+  {
+    "id": "q69",
+    "question": "What can developers run via SDK?",
+    "options": [
+      "Only database queries",
+      "LLM and ML inference",
+      "Only file transfers",
+      "Only deployments"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "category": "protocol"
+  },
+  {
+    "id": "q70",
+    "question": "What enables pay-per-call inference?",
+    "options": [
+      "Subscription model",
+      "HTTP 402 mechanism",
+      "Free tier",
+      "Prepaid credits"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "category": "protocol"
+  },
+  {
+    "id": "q71",
+    "question": "What connects SDK to Model Hub?",
+    "options": [
+      "Social login",
+      "Model deployment and management functions",
+      "Email notifications",
+      "Webhooks"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q72",
+    "question": "What ensures secure execution via SDK?",
+    "options": [
+      "SSL certificates",
+      "TEE-backed inference",
+      "API keys",
+      "OAuth tokens"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q73",
+    "question": "What does the SDK abstract away?",
+    "options": [
+      "AI concepts",
+      "Blockchain complexity",
+      "Hardware details",
+      "Network protocols"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q74",
+    "question": "What allows workflow automation?",
+    "options": [
+      "Cron jobs",
+      "Scheduled inference pipelines",
+      "Manual triggers",
+      "Email alerts"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q75",
+    "question": "What is workflow automation used for?",
+    "options": [
+      "Social media posting",
+      "Repeated or scheduled model execution",
+      "Email marketing",
+      "Data entry"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "category": "protocol"
+  },
+  {
+    "id": "q76",
+    "question": "What kind of execution does OpenGradient prioritize?",
+    "options": [
+      "Fast execution",
+      "Verifiable execution",
+      "Cheap execution",
+      "Parallel execution"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "category": "protocol"
+  },
+  {
+    "id": "q77",
+    "question": "Why is verification important in SDK usage?",
+    "options": [
+      "For billing accuracy",
+      "To ensure trustworthy results",
+      "For debugging",
+      "For logging"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q78",
+    "question": "What enables reproducibility in inference?",
+    "options": [
+      "Same hardware",
+      "Deterministic execution",
+      "Same time zone",
+      "Same user"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q79",
+    "question": "What is the role of hardware attestation?",
+    "options": [
+      "Performance benchmarking",
+      "Proof of secure runtime",
+      "Hardware inventory",
+      "Cost tracking"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "category": "protocol"
+  },
+  {
+    "id": "q80",
+    "question": "What separates OpenGradient from API-only AI platforms?",
+    "options": [
+      "Better documentation",
+      "Execution guarantees",
+      "More endpoints",
+      "Lower latency"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q81",
+    "question": "Can SDK users access memory functions?",
+    "options": [
+      "No",
+      "Yes, via MemSync integration",
+      "Only with enterprise plan",
+      "Only via CLI"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "category": "protocol"
+  },
+  {
+    "id": "q82",
+    "question": "What enables secure ML workflows?",
+    "options": [
+      "VPN connections",
+      "ONNX + TEE execution",
+      "Cloud firewalls",
+      "API rate limiting"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "category": "protocol"
+  },
+  {
+    "id": "q83",
+    "question": "What prevents execution tampering?",
+    "options": [
+      "Access control lists",
+      "Cryptographic verification",
+      "User authentication",
+      "Network firewalls"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "category": "protocol"
+  },
+  {
+    "id": "q84",
+    "question": "What makes inference auditable?",
+    "options": [
+      "Log files",
+      "Verifiable runtime proofs",
+      "Dashboard metrics",
+      "User reports"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "category": "protocol"
+  },
+  {
+    "id": "q85",
+    "question": "What does OpenGradient aim to provide to developers?",
+    "options": [
+      "Free compute",
+      "Trustworthy AI infrastructure",
+      "Social networking",
+      "Gaming platform"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "category": "protocol"
+  },
+  {
+    "id": "q86",
+    "question": "What is deterministic inference?",
+    "options": [
+      "Random output generation",
+      "Producing the same output for the same input under controlled conditions",
+      "Fastest possible inference",
+      "Cheapest inference"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q87",
+    "question": "Why does determinism matter in verification?",
+    "options": [
+      "It reduces costs",
+      "It enables proof of correctness",
+      "It speeds up training",
+      "It saves memory"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q88",
+    "question": "What transforms compute into persistent intelligence?",
+    "options": [
+      "Faster processing",
+      "Memory integration",
+      "Better algorithms",
+      "More data"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q89",
+    "question": "What is a system primitive?",
+    "options": [
+      "A simple variable",
+      "A foundational building block of architecture",
+      "A basic data type",
+      "A UI element"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "category": "protocol"
+  },
+  {
+    "id": "q90",
+    "question": "What architectural layer does memory represent?",
+    "options": [
+      "Compute layer",
+      "Continuity layer",
+      "Network layer",
+      "Presentation layer"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "category": "protocol"
+  },
+  {
+    "id": "q91",
+    "question": "What architectural layer does Model Hub represent?",
+    "options": [
+      "Execution layer",
+      "Intelligence storage layer",
+      "Network layer",
+      "UI layer"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "category": "protocol"
+  },
+  {
+    "id": "q92",
+    "question": "What architectural layer does verifiable inference represent?",
+    "options": [
+      "Storage layer",
+      "Execution layer",
+      "Memory layer",
+      "Data layer"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "category": "protocol"
+  },
+  {
+    "id": "q93",
+    "question": "Why is version control critical in AI systems?",
+    "options": [
+      "For marketing",
+      "To prevent breaking changes",
+      "For aesthetics",
+      "For pricing"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "category": "protocol"
+  },
+  {
+    "id": "q94",
+    "question": "What allows safe model evolution?",
+    "options": [
+      "Code reviews",
+      "Structured releases",
+      "User feedback",
+      "A/B testing"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q95",
+    "question": "What is the difference between storage and execution?",
+    "options": [
+      "They are the same thing",
+      "Storage holds artifacts; execution runs them securely",
+      "Storage is faster",
+      "Execution is cheaper"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q96",
+    "question": "What is hardware-backed verification?",
+    "options": [
+      "Checking hardware specs",
+      "Proof generated by secure enclaves",
+      "Hardware benchmarking",
+      "Device fingerprinting"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "category": "protocol"
+  },
+  {
+    "id": "q97",
+    "question": "What is portable memory?",
+    "options": [
+      "Memory on USB drives",
+      "Memory that persists across apps",
+      "Removable RAM",
+      "Cloud storage"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "category": "protocol"
+  },
+  {
+    "id": "q98",
+    "question": "What problem does cross-session context solve?",
+    "options": [
+      "Speed issues",
+      "Repetition and lack of continuity",
+      "Storage costs",
+      "Network latency"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q99",
+    "question": "What makes OpenGradient infrastructure-grade?",
+    "options": [
+      "Premium branding",
+      "Integrated trust, execution, and memory",
+      "Large team",
+      "Expensive pricing"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "category": "protocol"
+  },
+  {
+    "id": "q100",
+    "question": "What is the long-term vision of OpenGradient?",
+    "options": [
+      "Replacing social media",
+      "Persistent, verifiable AI systems",
+      "Building games",
+      "Cloud computing"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "category": "protocol"
+  },
+  {
+    "id": "q101",
+    "question": "What type of blockchain is OpenGradient?",
+    "options": [
+      "Bitcoin fork",
+      "EVM-compatible Layer 1",
+      "Layer 2 rollup",
+      "Solana-based"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "category": "protocol"
+  },
+  {
+    "id": "q102",
+    "question": "What does OpenGradient extend beyond standard EVM capabilities?",
+    "options": [
+      "Token swaps",
+      "Native AI inference",
+      "NFT minting",
+      "DeFi lending"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q103",
+    "question": "Is OpenGradient an AI application or infrastructure?",
+    "options": [
+      "Application",
+      "Infrastructure",
+      "Both equally",
+      "Neither"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "category": "protocol"
+  },
+  {
+    "id": "q104",
+    "question": "What core principle does OpenGradient emphasize instead of trust?",
+    "options": [
+      "Speed",
+      "Verification",
+      "Simplicity",
+      "Scalability"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "category": "protocol"
+  },
+  {
+    "id": "q105",
+    "question": "What does OpenGradient aim to make AI execution?",
+    "options": [
+      "Cheaper and faster",
+      "Verifiable and auditable",
+      "More complex",
+      "Fully automated"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "category": "protocol"
+  },
+  {
+    "id": "q106",
+    "question": "What concept replaces 'trust us' in OpenGradient's design?",
+    "options": [
+      "Terms of service",
+      "Cryptographic proof",
+      "Brand reputation",
+      "User reviews"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q107",
+    "question": "OpenGradient is building infrastructure for what type of intelligence?",
+    "options": [
+      "Artificial general intelligence",
+      "Open intelligence",
+      "Superintelligence",
+      "Narrow intelligence"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q108",
+    "question": "AI on OpenGradient is treated as what primitive?",
+    "options": [
+      "Off-chain service",
+      "Onchain primitive",
+      "External API",
+      "Sidechain module"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q109",
+    "question": "What allows OpenGradient to support Ethereum tooling?",
+    "options": [
+      "Custom bridges",
+      "EVM compatibility",
+      "Layer 2 rollups",
+      "Wrapped tokens"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "category": "protocol"
+  },
+  {
+    "id": "q110",
+    "question": "What does OpenGradient aim to eliminate in AI systems?",
+    "options": [
+      "User interfaces",
+      "Black-box execution",
+      "Open source models",
+      "Decentralization"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q111",
+    "question": "What does OpenGradient enable directly from smart contracts?",
+    "options": [
+      "Social media posting",
+      "ML and LLM inference",
+      "File storage",
+      "Email sending"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q112",
+    "question": "What shifts from institutions to math on OpenGradient?",
+    "options": [
+      "Governance",
+      "Trust",
+      "Ownership",
+      "Revenue"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "category": "protocol"
+  },
+  {
+    "id": "q113",
+    "question": "What becomes auditable on OpenGradient?",
+    "options": [
+      "User behavior",
+      "AI inference",
+      "Token transfers only",
+      "Smart contract code only"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "category": "protocol"
+  },
+  {
+    "id": "q114",
+    "question": "What does OpenGradient focus on instead of centralized control?",
+    "options": [
+      "Distributed computing",
+      "User ownership",
+      "Government regulation",
+      "Corporate governance"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q115",
+    "question": "OpenGradient serves as base layer for which ecosystem products?",
+    "options": [
+      "MetaMask, Uniswap, Aave",
+      "MemSync, Twin.fun, BitQuant",
+      "ChatGPT, DALL-E, Whisper",
+      "Ethereum, Polygon, Arbitrum"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "category": "protocol"
+  },
+  {
+    "id": "q116",
+    "question": "What does HACA stand for?",
+    "options": [
+      "High Availability Cloud Architecture",
+      "Hybrid AI Compute Architecture",
+      "Hardware Accelerated Computing Appliance",
+      "Hosted AI Connectivity Agent"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q117",
+    "question": "How many core node types exist in HACA?",
+    "options": [
+      "Two",
+      "Four",
+      "Six",
+      "Eight"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "category": "protocol"
+  },
+  {
+    "id": "q118",
+    "question": "Which nodes execute EVM transactions?",
+    "options": [
+      "Inference Nodes",
+      "Full Nodes",
+      "Storage Nodes",
+      "Data Nodes"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q119",
+    "question": "Which nodes execute AI models?",
+    "options": [
+      "Full Nodes",
+      "Inference Nodes",
+      "Storage Nodes",
+      "Data Nodes"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q120",
+    "question": "Which nodes store model files?",
+    "options": [
+      "Full Nodes",
+      "Storage Nodes",
+      "Inference Nodes",
+      "Data Nodes"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "category": "protocol"
+  },
+  {
+    "id": "q121",
+    "question": "Which nodes provide secure external data access?",
+    "options": [
+      "Full Nodes",
+      "Data Nodes",
+      "Storage Nodes",
+      "Inference Nodes"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "category": "protocol"
+  },
+  {
+    "id": "q122",
+    "question": "What do Full Nodes compute?",
+    "options": [
+      "AI inference",
+      "State-transition function",
+      "Model training",
+      "Data aggregation"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "category": "protocol"
+  },
+  {
+    "id": "q123",
+    "question": "What can Inference Nodes generate besides outputs?",
+    "options": [
+      "Tokens",
+      "ZK proofs or TEE attestations",
+      "Smart contracts",
+      "NFTs"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "category": "protocol"
+  },
+  {
+    "id": "q124",
+    "question": "What hardware can Inference Nodes use?",
+    "options": [
+      "Only GPUs",
+      "CPUs, GPUs, TPUs, or TEEs",
+      "Only TPUs",
+      "Only CPUs"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q125",
+    "question": "What ensures inference remains decentralized?",
+    "options": [
+      "Cloud hosting",
+      "Node specialization",
+      "Central servers",
+      "Load balancers"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q126",
+    "question": "What layer stores models for inference execution?",
+    "options": [
+      "Execution layer",
+      "Decentralized storage",
+      "Cache layer",
+      "Application layer"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q127",
+    "question": "What protocol do Data Nodes use for secure connections?",
+    "options": [
+      "HTTP",
+      "TLS",
+      "FTP",
+      "SSH"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "category": "protocol"
+  },
+  {
+    "id": "q128",
+    "question": "What do Full Nodes validate after inference?",
+    "options": [
+      "User identity",
+      "Proofs",
+      "Model size",
+      "Token balance"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "category": "protocol"
+  },
+  {
+    "id": "q129",
+    "question": "What happens before inference execution?",
+    "options": [
+      "Token minting",
+      "Model retrieval",
+      "User voting",
+      "Block finalization"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q130",
+    "question": "HACA separates which four components?",
+    "options": [
+      "Frontend, backend, database, UI",
+      "Compute, storage, data, verification",
+      "Client, server, proxy, cache",
+      "Input, processing, output, feedback"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "category": "protocol"
+  },
+  {
+    "id": "q131",
+    "question": "What does HACA never separate from the protocol?",
+    "options": [
+      "Storage",
+      "Trust",
+      "Speed",
+      "Cost"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "category": "protocol"
+  },
+  {
+    "id": "q132",
+    "question": "What type of execution do Inference Nodes perform?",
+    "options": [
+      "Smart contract deployment",
+      "Model inference",
+      "Block production",
+      "Data indexing"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "category": "protocol"
+  },
+  {
+    "id": "q133",
+    "question": "What ensures inference is scalable?",
+    "options": [
+      "Bigger servers",
+      "Node specialization",
+      "Single node architecture",
+      "Manual scaling"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q134",
+    "question": "What enables secure data pulling from external APIs?",
+    "options": [
+      "Full Nodes",
+      "Data Nodes",
+      "Storage Nodes",
+      "Inference Nodes"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "category": "protocol"
+  },
+  {
+    "id": "q135",
+    "question": "What type of architecture is HACA?",
+    "options": [
+      "Monolithic",
+      "Hybrid",
+      "Centralized",
+      "Serverless"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "category": "protocol"
+  },
+  {
+    "id": "q136",
+    "question": "What makes inference verifiable?",
+    "options": [
+      "User reviews",
+      "Cryptographic proofs",
+      "Server logs",
+      "Manual audits"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "category": "protocol"
+  },
+  {
+    "id": "q137",
+    "question": "Name two verification methods supported.",
+    "options": [
+      "SSL and OAuth",
+      "ZKML and TEE",
+      "JWT and API keys",
+      "HMAC and RSA"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q138",
+    "question": "Why is verifiable inference necessary for capital?",
+    "options": [
+      "For cheaper transactions",
+      "Accountability",
+      "For faster trades",
+      "For token creation"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "category": "protocol"
+  },
+  {
+    "id": "q139",
+    "question": "Without proof, AI agents are considered what?",
+    "options": [
+      "Efficient",
+      "Uninsurable",
+      "Trustworthy",
+      "Scalable"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "category": "protocol"
+  },
+  {
+    "id": "q140",
+    "question": "What replaces traditional audits in agent systems?",
+    "options": [
+      "User feedback",
+      "Verifiable inference",
+      "Peer review",
+      "Government regulation"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q141",
+    "question": "What shifts from reputation-based trust?",
+    "options": [
+      "Brand trust",
+      "Math-based trust",
+      "Community trust",
+      "Legal trust"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "category": "protocol"
+  },
+  {
+    "id": "q142",
+    "question": "What happens if inference cannot be verified?",
+    "options": [
+      "It runs faster",
+      "Trust collapses",
+      "Costs decrease",
+      "Nothing changes"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q143",
+    "question": "Verifiable inference enables what for agents?",
+    "options": [
+      "Social media access",
+      "Autonomous capital management",
+      "Faster rendering",
+      "Better UI"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "category": "protocol"
+  },
+  {
+    "id": "q144",
+    "question": "What becomes provable in OpenGradient?",
+    "options": [
+      "User identity",
+      "Model execution",
+      "Network speed",
+      "Storage capacity"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "category": "protocol"
+  },
+  {
+    "id": "q145",
+    "question": "What caps an AI agent's value?",
+    "options": [
+      "Its speed",
+      "Its verifiability",
+      "Its size",
+      "Its cost"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "category": "protocol"
+  },
+  {
+    "id": "q146",
+    "question": "What kind of compute trades at premium?",
+    "options": [
+      "Cheap compute",
+      "Verifiable compute",
+      "Fast compute",
+      "Cloud compute"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "category": "protocol"
+  },
+  {
+    "id": "q147",
+    "question": "What is black-box compute optimized for?",
+    "options": [
+      "Security",
+      "Cheap content",
+      "Verification",
+      "Trust"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "category": "protocol"
+  },
+  {
+    "id": "q148",
+    "question": "What must inference guarantee for safety?",
+    "options": [
+      "Speed",
+      "Integrity",
+      "Low cost",
+      "High throughput"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q149",
+    "question": "What transforms inference into an audit layer?",
+    "options": [
+      "Dashboards",
+      "Proofs",
+      "Logs",
+      "Metrics"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "category": "protocol"
+  },
+  {
+    "id": "q150",
+    "question": "What ensures model execution wasn't tampered with?",
+    "options": [
+      "User monitoring",
+      "Cryptographic validation",
+      "Server logs",
+      "Access control"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q151",
+    "question": "On OpenGradient, inference runs inside what?",
+    "options": [
+      "A separate server",
+      "Blockchain transaction",
+      "An email",
+      "A chatbot"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q152",
+    "question": "What is inference treated as?",
+    "options": [
+      "A side effect",
+      "State transition",
+      "A log entry",
+      "A notification"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "category": "protocol"
+  },
+  {
+    "id": "q153",
+    "question": "What happens after inference execution?",
+    "options": [
+      "Data is deleted",
+      "Output is committed to state",
+      "System restarts",
+      "Cache is cleared"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q154",
+    "question": "Why does this enable composability?",
+    "options": [
+      "Outputs are private",
+      "Outputs are onchain",
+      "Outputs are deleted",
+      "Outputs are cached"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "category": "protocol"
+  },
+  {
+    "id": "q155",
+    "question": "What becomes protocol-native logic?",
+    "options": [
+      "Token transfers",
+      "AI inference",
+      "File storage",
+      "User auth"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "category": "protocol"
+  },
+  {
+    "id": "q156",
+    "question": "Does inference happen off-chain?",
+    "options": [
+      "Yes, always",
+      "No",
+      "Sometimes",
+      "Only for LLMs"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "category": "protocol"
+  },
+  {
+    "id": "q157",
+    "question": "What updates after inference?",
+    "options": [
+      "User profile",
+      "Blockchain state",
+      "Email inbox",
+      "Social feed"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q158",
+    "question": "What makes AI composable?",
+    "options": [
+      "API endpoints",
+      "Onchain state integration",
+      "Microservices",
+      "Docker containers"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "category": "protocol"
+  },
+  {
+    "id": "q159",
+    "question": "What allows smart contracts to act on AI outputs?",
+    "options": [
+      "Webhooks",
+      "State commitment",
+      "Push notifications",
+      "Polling"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "category": "protocol"
+  },
+  {
+    "id": "q160",
+    "question": "What makes inference durable?",
+    "options": [
+      "Caching",
+      "Onchain persistence",
+      "RAM storage",
+      "SSD storage"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q161",
+    "question": "What must persist for accountability?",
+    "options": [
+      "User sessions",
+      "Inference outputs",
+      "Login tokens",
+      "API keys"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q162",
+    "question": "What happens if inference outputs disappear?",
+    "options": [
+      "Nothing",
+      "No replay or verification",
+      "Faster execution",
+      "Lower costs"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q163",
+    "question": "Why is inference DA non-negotiable?",
+    "options": [
+      "For marketing",
+      "Agents act continuously",
+      "For aesthetics",
+      "For compliance only"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "category": "protocol"
+  },
+  {
+    "id": "q164",
+    "question": "What allows re-verification later?",
+    "options": [
+      "Screenshots",
+      "Published outputs",
+      "Memory",
+      "Bookmarks"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q165",
+    "question": "What collapses if outputs cannot be audited?",
+    "options": [
+      "Speed",
+      "Trust",
+      "Cost",
+      "Complexity"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "category": "protocol"
+  },
+  {
+    "id": "q166",
+    "question": "What does MemSync provide?",
+    "options": [
+      "Cloud storage",
+      "Portable AI memory",
+      "File sharing",
+      "Code hosting"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "category": "protocol"
+  },
+  {
+    "id": "q167",
+    "question": "Who owns memory in MemSync?",
+    "options": [
+      "The platform",
+      "The user",
+      "The developers",
+      "The network"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "category": "protocol"
+  },
+  {
+    "id": "q168",
+    "question": "What problem does MemSync solve?",
+    "options": [
+      "Slow inference",
+      "Memory fragmentation",
+      "High costs",
+      "Complex APIs"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "category": "protocol"
+  },
+  {
+    "id": "q169",
+    "question": "What happens when switching models today?",
+    "options": [
+      "Memory transfers",
+      "Context resets",
+      "Speed increases",
+      "Costs decrease"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "category": "protocol"
+  },
+  {
+    "id": "q170",
+    "question": "What should persist across AI tools?",
+    "options": [
+      "API keys",
+      "User context",
+      "Server logs",
+      "Code commits"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "category": "protocol"
+  },
+  {
+    "id": "q171",
+    "question": "What kind of memory does MemSync enable?",
+    "options": [
+      "Volatile memory",
+      "Persistent memory",
+      "Read-only memory",
+      "Cache memory"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "category": "protocol"
+  },
+  {
+    "id": "q172",
+    "question": "What prevents cognitive fragmentation?",
+    "options": [
+      "Single sign-on",
+      "Portable memory",
+      "Larger models",
+      "More data"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q173",
+    "question": "What is traded on Twin.fun?",
+    "options": [
+      "Tokens",
+      "Keys",
+      "NFTs",
+      "Coins"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "category": "protocol"
+  },
+  {
+    "id": "q174",
+    "question": "What powers pricing on Twin.fun?",
+    "options": [
+      "Fixed pricing",
+      "Bonding curve",
+      "Auction system",
+      "Subscription"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q175",
+    "question": "What are Digital Twins modeled after?",
+    "options": [
+      "Fictional characters",
+      "Real thinkers",
+      "Random personas",
+      "AI models"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "category": "protocol"
+  },
+  {
+    "id": "q176",
+    "question": "What is Twin Feed?",
+    "options": [
+      "A news feed",
+      "Autonomous agent interaction",
+      "A social timeline",
+      "A blog"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q177",
+    "question": "What does holding a key unlock?",
+    "options": [
+      "Source code",
+      "Interaction modes",
+      "Admin access",
+      "Free compute"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q178",
+    "question": "Name one interaction mode on Twin.fun.",
+    "options": [
+      "Trade",
+      "Chat / Duel / Pitch",
+      "Mine",
+      "Stake"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "category": "protocol"
+  },
+  {
+    "id": "q179",
+    "question": "What does SolidML enable?",
+    "options": [
+      "Cloud migration",
+      "Onchain ML execution",
+      "Database queries",
+      "File storage"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q180",
+    "question": "What makes inference atomic?",
+    "options": [
+      "Small model size",
+      "Execution within transaction",
+      "Fast hardware",
+      "Low latency"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "category": "protocol"
+  },
+  {
+    "id": "q181",
+    "question": "What removes need for callbacks in SolidML?",
+    "options": [
+      "Polling",
+      "Native execution",
+      "Webhooks",
+      "Long polling"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "category": "protocol"
+  },
+  {
+    "id": "q182",
+    "question": "What does BitQuant replace?",
+    "options": [
+      "Manual trading",
+      "Signal chasing",
+      "Portfolio management",
+      "Risk analysis"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q183",
+    "question": "What type of analysis does BitQuant provide?",
+    "options": [
+      "Sentiment analysis",
+      "Model-based",
+      "Technical analysis only",
+      "Fundamental analysis only"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q184",
+    "question": "What does BitQuant make verifiable?",
+    "options": [
+      "Social media metrics",
+      "Financial intelligence",
+      "User behavior",
+      "Network traffic"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q185",
+    "question": "Intelligence becomes what asset class?",
+    "options": [
+      "A commodity",
+      "New asset class",
+      "A utility",
+      "A currency"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "category": "protocol"
+  },
+  {
+    "id": "q186",
+    "question": "What becomes scarce?",
+    "options": [
+      "Compute",
+      "Trust",
+      "Data",
+      "Models"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "category": "protocol"
+  },
+  {
+    "id": "q187",
+    "question": "What enables agent reputation?",
+    "options": [
+      "User ratings",
+      "Provable behavior",
+      "Social following",
+      "Time online"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "category": "protocol"
+  },
+  {
+    "id": "q188",
+    "question": "What replaces platform lock-in?",
+    "options": [
+      "New platforms",
+      "Portability",
+      "Government regulation",
+      "Standards bodies"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "category": "protocol"
+  },
+  {
+    "id": "q189",
+    "question": "What generates yield in Twin economy?",
+    "options": [
+      "Staking",
+      "Reasoning",
+      "Mining",
+      "Trading"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "category": "protocol"
+  },
+  {
+    "id": "q190",
+    "question": "What becomes liquidity?",
+    "options": [
+      "Tokens",
+      "Attention",
+      "Compute",
+      "Storage"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "category": "protocol"
+  }
+]
