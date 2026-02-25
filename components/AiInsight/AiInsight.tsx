@@ -62,6 +62,9 @@ export function AiInsight({
         return () => { cancelled = true; };
     }, [username, score, total, percentage, rank, results]);
 
+    // Don't render anything if backend isn't available
+    if (error && !loading) return null;
+
     return (
         <div className="mt-6 sm:mt-8">
             {/* ── Section divider ─────────────────── */}
@@ -120,23 +123,6 @@ export function AiInsight({
                                 />
                             ))}
                         </div>
-                    </motion.div>
-                )}
-
-                {error && !loading && (
-                    <motion.div
-                        key="error"
-                        initial={{ opacity: 0, y: 8 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        className="rounded-2xl border border-red-500/30 bg-red-500/[0.05] p-5 sm:p-7"
-                    >
-                        <p className="text-sm text-red-400">
-                            ⚠ Could not connect to the AI backend. Make sure the Python server is running on
-                            port 8000.
-                        </p>
-                        <p className="mt-2 text-xs theme-text-m">
-                            Run: <code className="rounded bg-red-500/10 px-1.5 py-0.5 text-red-400">cd backend && python server.py</code>
-                        </p>
                     </motion.div>
                 )}
 

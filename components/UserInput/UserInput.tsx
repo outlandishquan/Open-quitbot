@@ -17,9 +17,12 @@ export function UserInput({ onSubmit, initialUsername = '' }: UserInputProps) {
   const [avatarFile, setAvatarFile] = useState<File | null>(null);
   const [avatarPreview, setAvatarPreview] = useState<string | null>(null);
   const [useFallback, setUseFallback] = useState(false);
+  const [touched, setTouched] = useState(false);
   const fileInputRef = useRef<HTMLInputElement>(null);
 
   const cleanUsername = username.replace(/^@/, '').trim();
+  const isValidHandle = /^[A-Za-z0-9_]{1,15}$/.test(cleanUsername);
+  const showError = touched && !isValidHandle;
   const avatarFromTwitter = cleanUsername && !useFallback && !avatarFile
     ? AVATAR_URL(cleanUsername)
     : null;
@@ -36,7 +39,9 @@ export function UserInput({ onSubmit, initialUsername = '' }: UserInputProps) {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    onSubmit({ username: cleanUsername || 'anonymous', avatarFile });
+    setTouched(true);
+    if (!isValidHandle) return;
+    onSubmit({ username: cleanUsername, avatarFile });
   };
 
   const clearAvatar = useCallback(() => {
@@ -75,14 +80,26 @@ export function UserInput({ onSubmit, initialUsername = '' }: UserInputProps) {
                 type="text"
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}
+                onBlur={() => setTouched(true)}
                 placeholder="@yourhandle"
-                className="w-full rounded-xl border px-4 py-3 text-sm transition-colors focus:border-og-purple focus:outline-none focus:ring-2 focus:ring-og-purple/30 sm:text-base"
+                required
+                className={`w-full rounded-xl border px-4 py-3 text-sm transition-colors focus:outline-none focus:ring-2 sm:text-base ${showError
+                    ? 'border-red-500 focus:border-red-500 focus:ring-red-500/30'
+                    : 'focus:border-og-purple focus:ring-og-purple/30'
+                  }`}
                 style={{
-                  borderColor: 'var(--border-primary)',
+                  borderColor: showError ? undefined : 'var(--border-primary)',
                   background: 'var(--input-bg)',
                   color: 'var(--text-primary)',
                 }}
               />
+              {showError && (
+                <p className="mt-1.5 text-xs text-red-400">
+                  {cleanUsername.length === 0
+                    ? 'Please enter your X (Twitter) handle to continue.'
+                    : 'Invalid handle — use 1-15 characters (letters, numbers, underscores).'}
+                </p>
+              )}
             </div>
 
             {/* Avatar */}
@@ -157,7 +174,11 @@ export function UserInput({ onSubmit, initialUsername = '' }: UserInputProps) {
             {/* Submit */}
             <button
               type="submit"
-              className="w-full rounded-xl bg-gradient-to-r from-og-purple to-og-blue py-3 text-sm font-bold text-white shadow-glow-sm transition-all hover:shadow-glow hover:brightness-110 active:scale-[0.98] sm:text-base"
+              disabled={touched && !isValidHandle}
+              className={`w-full rounded-xl py-3 text-sm font-bold text-white shadow-glow-sm transition-all active:scale-[0.98] sm:text-base ${touched && !isValidHandle
+                  ? 'cursor-not-allowed bg-gray-600 opacity-50'
+                  : 'bg-gradient-to-r from-og-purple to-og-blue hover:shadow-glow hover:brightness-110'
+                }`}
             >
               Start quiz
             </button>
