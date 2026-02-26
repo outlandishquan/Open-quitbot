@@ -3,65 +3,80 @@
 @tailwind utilities;
 
 /* ═══════════════════════════════════════════════
-   DARK THEME (default)
+   PHOSPHOR NOIR — DARK THEME (default)
+   Warm blacks · Electric mint · Amber gold
    ═══════════════════════════════════════════════ */
 :root {
-  --og-dark: #0a0a0f;
-  --og-card: #12121a;
-  --og-border: #1e1e2e;
-  --og-purple: #8b5cf6;
-  --og-blue: #3b82f6;
-  --og-glow: #a78bfa;
+  --og-dark: #0f0e0c;
+  --og-card: #1a1917;
+  --og-border: #2a2824;
+  --og-purple: #00f0b5;
+  --og-blue: #00c9a7;
+  --og-glow: #00f0b5;
 
   /* Semantic tokens */
-  --bg-primary: #0a0a0f;
-  --bg-secondary: #12121a;
-  --bg-tertiary: #181825;
-  --border-primary: #1e1e2e;
-  --border-subtle: rgba(30, 30, 46, 0.5);
-  --text-primary: #e2e8f0;
-  --text-secondary: #94a3b8;
-  --text-tertiary: #64748b;
-  --text-muted: #475569;
-  --header-bg: rgba(10, 10, 15, 0.8);
-  --card-bg: rgba(18, 18, 26, 0.4);
-  --input-bg: rgba(10, 10, 15, 0.6);
-  --radial-glow: rgba(139, 92, 246, 0.07);
-  --scrollbar-track: #0a0a0f;
-  --scrollbar-thumb: #1e1e2e;
-  --selection-bg: rgba(139, 92, 246, 0.3);
+  --bg-primary: #0f0e0c;
+  --bg-secondary: #1a1917;
+  --bg-tertiary: #222120;
+  --border-primary: #2a2824;
+  --border-subtle: rgba(42, 40, 36, 0.6);
+  --text-primary: #ede8df;
+  --text-secondary: #a8a196;
+  --text-tertiary: #7d766c;
+  --text-muted: #5c574f;
+  --header-bg: rgba(15, 14, 12, 0.85);
+  --card-bg: rgba(26, 25, 23, 0.5);
+  --input-bg: rgba(15, 14, 12, 0.7);
+  --radial-glow: rgba(0, 240, 181, 0.06);
+  --scrollbar-track: #0f0e0c;
+  --scrollbar-thumb: #2a2824;
+  --selection-bg: rgba(0, 240, 181, 0.25);
   --selection-text: #fff;
+
+  /* Accent tokens */
+  --accent-primary: #00f0b5;
+  --accent-secondary: #f5a623;
+  --accent-glow: rgba(0, 240, 181, 0.15);
+  --accent-glow-strong: rgba(0, 240, 181, 0.3);
 }
 
 /* ═══════════════════════════════════════════════
-   LIGHT THEME
+   LIGHT THEME — PHOSPHOR WARM
+   Cream base · Deep teal · Warm amber
    ═══════════════════════════════════════════════ */
 html.light {
-  --og-dark: #f8fafc;
+  --og-dark: #faf8f4;
   --og-card: #ffffff;
-  --og-border: #e2e8f0;
-  --og-glow: #7c3aed;
+  --og-border: #e8e3d8;
+  --og-glow: #008f6c;
+  --og-purple: #008f6c;
+  --og-blue: #007a5e;
 
-  --bg-primary: #f8fafc;
+  --bg-primary: #faf8f4;
   --bg-secondary: #ffffff;
-  --bg-tertiary: #f1f5f9;
-  --border-primary: #e2e8f0;
-  --border-subtle: rgba(226, 232, 240, 0.6);
-  --text-primary: #0f172a;
-  --text-secondary: #475569;
-  --text-tertiary: #64748b;
-  --text-muted: #94a3b8;
-  --header-bg: rgba(248, 250, 252, 0.85);
-  --card-bg: rgba(255, 255, 255, 0.7);
-  --input-bg: rgba(241, 245, 249, 0.8);
-  --radial-glow: rgba(139, 92, 246, 0.04);
-  --scrollbar-track: #f8fafc;
-  --scrollbar-thumb: #cbd5e1;
-  --selection-bg: rgba(139, 92, 246, 0.15);
-  --selection-text: #1e1b4b;
+  --bg-tertiary: #f2efe8;
+  --border-primary: #e8e3d8;
+  --border-subtle: rgba(232, 227, 216, 0.7);
+  --text-primary: #1a1612;
+  --text-secondary: #5c574f;
+  --text-tertiary: #7d766c;
+  --text-muted: #a8a196;
+  --header-bg: rgba(250, 248, 244, 0.88);
+  --card-bg: rgba(255, 255, 255, 0.75);
+  --input-bg: rgba(242, 239, 232, 0.8);
+  --radial-glow: rgba(0, 143, 108, 0.05);
+  --scrollbar-track: #faf8f4;
+  --scrollbar-thumb: #d4cfc4;
+  --selection-bg: rgba(0, 143, 108, 0.15);
+  --selection-text: #0a2e24;
+
+  --accent-primary: #008f6c;
+  --accent-secondary: #d48a0a;
+  --accent-glow: rgba(0, 143, 108, 0.08);
+  --accent-glow-strong: rgba(0, 143, 108, 0.15);
 }
 
-/* ── Base ───────────────────────────────────── */
+/* ── Typography ───────────────────────────────── */
 html {
   overflow-y: scroll;
   scroll-behavior: smooth;
@@ -72,18 +87,40 @@ html {
 body {
   background: var(--bg-primary);
   color: var(--text-primary);
-  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-family: 'Figtree', system-ui, sans-serif;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* ── Radial glow ───────────────────────────── */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Bricolage Grotesque', 'Figtree', system-ui, sans-serif;
+}
+
+/* ── Atmospheric background ───────────────────── */
 .bg-radial-glow {
   background:
-    radial-gradient(ellipse 60% 40% at 50% 0%, var(--radial-glow) 0%, transparent 70%),
+    radial-gradient(ellipse 80% 50% at 30% -10%, var(--accent-glow) 0%, transparent 60%),
+    radial-gradient(ellipse 60% 40% at 80% 20%, rgba(245, 166, 35, 0.03) 0%, transparent 60%),
     var(--bg-primary);
 }
 
-/* ── Theme-aware overrides ─────────────────── */
+/* Dot matrix pattern overlay */
+.bg-radial-glow::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: radial-gradient(circle at center, var(--border-primary) 0.5px, transparent 0.5px);
+  background-size: 24px 24px;
+  opacity: 0.3;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* ── Theme-aware utilities ────────────────────── */
 .theme-header {
   background: var(--header-bg);
 }
@@ -124,15 +161,15 @@ body {
   color: var(--text-muted);
 }
 
-/* ── Selection color ───────────────────────── */
+/* ── Selection ────────────────────────────────── */
 ::selection {
   background: var(--selection-bg);
   color: var(--selection-text);
 }
 
-/* ── Scrollbar styling ─────────────────────── */
+/* ── Scrollbar ────────────────────────────────── */
 ::-webkit-scrollbar {
-  width: 6px;
+  width: 5px;
 }
 
 ::-webkit-scrollbar-track {
@@ -145,10 +182,10 @@ body {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--og-purple);
+  background: var(--accent-primary);
 }
 
-/* ── Smooth theme transitions ──────────────── */
+/* ── Smooth theme transitions ─────────────────── */
 *,
 *::before,
 *::after {
@@ -157,10 +194,46 @@ body {
   transition-timing-function: ease;
 }
 
-/* Exclude elements where transition causes issues */
 canvas,
 img,
 video,
 svg path {
   transition: none !important;
+}
+
+/* ── Custom animations ────────────────────────── */
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes float {
+
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+@keyframes scanline {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(100vh);
+  }
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
 }
